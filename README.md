@@ -1,6 +1,7 @@
 # LaserVision: Real-time Laser Measurement with a Webcam
+### This is the Linux version of repo  https://github.com/bhowiebkr/laser-level-webcam
 
-For Binary Downloads see the [Releases](https://github.com/bhowiebkr/laser-level-webcam/releases) page.
+For Linux Binary Downloads see the [Releases](https://github.com/LTGRP/laser-level-webcam-linux/releases) page.
 
 This is the software component in building a highly accurate measurement device primarily used in a similar way to a surface plate. Sofar measurements are attainable between 0.5um - 2um in repeated measurements. 
 
