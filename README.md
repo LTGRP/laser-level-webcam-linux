@@ -1,4 +1,4 @@
-# LaserVision: Real-time Laser Measurement with a Webcam
+# LaserVision: Real-time Laser Measurement with a Webcam Debian Linux Version
 ### This is the Linux version of repo  https://github.com/bhowiebkr/laser-level-webcam
 
 For Linux Binary Downloads see the [Releases](https://github.com/LTGRP/laser-level-webcam-linux/releases) page.
@@ -33,25 +33,25 @@ Python to C compiler. In the future I’ll setup a Releases.
 
 2. Clone this repository or download the ZIP file and extract it to a folder on your computer.
 
-3. Open a terminal or command prompt and navigate to the folder where you extracted the files.
+3. Open a terminal and navigate to the folder where you extracted the files.
 
 4. Install the required packages by running the following command:
 
-`pip install -r requirements.txt`
+`pip3 install -r requirements.txt`
 
 This command will install all the required packages listed in the `requirements.txt` file.
 
 5. Once the packages are installed, run the application by running the following command:
 
-`python main.py` from the **laser_level_tool** folder.
+`python3 main.py` from the **laser_level_tool** folder.
 
 This will launch the application and start capturing video from your webcam.
 
 ## Usage
 
-I’ll make a video explaining this tool and the workflow in greater detail, but in the meantime, work from the left to the right of the tool. Some helpful tips:
+bhowiebkr made a video explaining this tool and the workflow in greater detail, but in the meantime, work from the left to the right of the tool. Some helpful tips:
 
-- About 100 sub-samples. I tried up to 1000 sub-samples and didn’t find much more of a difference.
+- About 100 sub-samples. bhowiebkr tried up to 1000 sub-samples and didn’t find much more of a difference.
 - remove 50% of the outliers 
 - crank the smoothing way up
 - let the tool stay on for at least 5 minutes so the webcam sensor stays at a consistent temp. It will drift while getting up to temp. It might be best to test this on your own sensor by taking the same measurement from a cold start and time how long it takes before the samples stop drifting.
