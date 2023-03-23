@@ -31,9 +31,9 @@ Python to C compiler. In the future I’ll setup a Releases.
 
 1. Install Python on your computer. You can download the latest version of Python from the official website: https://www.python.org/downloads/
 
-2. Clone this repository or download the ZIP file and extract it to a folder on your computer.
+2. Clone this repository git clone https://github.com/LTGRP/laser-level-webcam-linux.git
 
-3. Open a terminal and navigate to the folder where you extracted the files.
+3. cd laser-level-webcam-linux
 
 4. Install the required packages by running the following command:
 
@@ -43,7 +43,7 @@ This command will install all the required packages listed in the `requirements.
 
 5. Once the packages are installed, run the application by running the following command:
 
-`python3 main.py` from the **laser_level_tool** folder.
+`python3 main.py` from the **laser_level_tool** directory
 
 This will launch the application and start capturing video from your webcam.
 
